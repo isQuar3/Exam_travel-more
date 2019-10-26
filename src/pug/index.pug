@@ -1,0 +1,34 @@
+include ../blocks/header/_header.pug
+include ../blocks/nav-logo/_nav-logo.pug
+include ../blocks/home/_home.pug
+include ../blocks/home-sutisfy/_home-sutisfy.pug
+include ../blocks/travel-block1/_travel-block1.pug
+include ../blocks/travel-block2/_travel-block2.pug
+include ../blocks/quote-section/_quote-section.pug
+include ../blocks/footer/_footer.pug
+
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(description="Небольшой сайт, на котором можно увидеть закрепление зананий за месяц")
+        <link rel="shortcut icon" href="../dist/img/favicon.png" type="image/x-icon">
+        //- base(href="https://github.com/isQuar3")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Exam page by Shushkevych
+        link(rel="stylesheet", href="./css/style.css")
+    body
+        +header
+        +nav-logo
+        +home
+        +home-sutisfy
+        +travel-block1
+        +travel-block2
+        +quote-section
+        +footer
+
+        
+        script(src="https://kit.fontawesome.com/18b8ba6422.js" crossorigin="anonymous")
+        script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+        script(src='./plugins/jquery.mask.min.js')

@@ -1,0 +1,22 @@
+mixin header
+    a(name="whoweare")
+    .header
+        .container
+            .header__wrapper
+                .col-12
+                    .header__headline
+                        .header__headline--title Bhromaon
+                        .header__headline--subtitle Safe Travel Anywhere
+                .row
+                    .col-12.d-flex.justify-content-center
+                        form(action="", method="get").header__form--search
+                            input(type="text", name="q" placeholder="Search Your Travel Destination" required).header__form--input
+                            button(type="submit" for="q").header__form--btn
+                                p.header__form--btn-text Search
+                                i.fas.fa-search
+                .col-12
+                    .header__scroll
+                        a(href="#navigation").header__scroll--navigation
+                            p.header__scroll--text Scroll Down
+                            i.fas.fa-chevron-down
+                            

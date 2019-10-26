@@ -1,0 +1,22 @@
+mixin nav-logo
+    a(name="navigation")
+    .nav-logo&attributes(attributes)
+        .container
+            .nav-logo__wrapper
+                nav.nav-logo__navigation
+                    a(href="#header").nav-logo__logo
+                        p.nav-logo__text Bhromaon
+                    .nav-logo__menu
+                    input(id="burger" type="checkbox").nav-logo__checkbox
+                    label(for="burger").nav-logo__burger
+                        i.fas.fa-bars
+                        i.fas.fa-times
+                    ul.nav-logo__list
+                        li.nav-logo__item.nav-logo__item--active
+                            a(href="#whoweare").nav-logo__link WHO WE ARE
+                        li.nav-logo__item
+                            a(href="#whatwedo").nav-logo__link WHAT WE DO
+                        li.nav-logo__item
+                            a(href="#travelwithus").nav-logo__link TRAVEL WITH US
+                        li.nav-logo__item
+                            a(href="#contactus").nav-logo__link CONTACT US

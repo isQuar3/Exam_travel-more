@@ -1,0 +1,85 @@
+    // font-family: 'Josefin Sans', sans-serif;
+    // font-family: 'Aleo', serif;
+.quote-section {
+    background-image: url(../../dist/img/quote-section-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__wrapper {
+        padding-top: 127px;
+        padding-bottom: 188px;
+    }
+    &__header {
+        display: flex;
+        justify-content: center;
+
+        &--title {
+            color: #ffffff;
+            font-family: 'Aleo', serif;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 95px;
+            letter-spacing: 0.01em;
+        }
+    }
+    &__content-wrapper {
+        background-color: #333333;
+        padding: 51px 43px;
+        font-family: 'Josefin Sans', sans-serif;
+        height: 100%;
+    }
+    &__content {
+
+        &--title {
+            color: #fefefe;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 28px;
+            letter-spacing: -0.04em;
+        }
+        &--text {
+            color: #e8e8e8;
+            font-family: "Josefin Sans";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.02em;
+            padding-top: 17px;
+        }
+    }
+}
+.quote-section__content img {
+    max-height: 370px;
+    width: 100%;
+}
+blockquote {
+    position: relative;
+}
+i.fa-quote-left {
+    color: #5474fd;
+    float: left;
+    font-size: 19px;
+    margin-right: 7px;
+}
+@media screen and (max-width: 1199px) {
+    .quote-section__content-wrapper {
+        max-height: 297px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .quote-section__wrapper {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .quote-section__header--title {
+        margin-bottom: 10px;
+    }
+    .quote-section__content--img {
+        margin-bottom: 30px;
+    }
+    .quote-section__content-wrapper {
+        max-height: 100%;
+    }
+}

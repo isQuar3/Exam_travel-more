@@ -1,0 +1,68 @@
+.travel-block2 {
+    background-image: url(../../dist/img/whatwedo-bg-block2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__wrapper {
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+    &__content {
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 48px 30px;
+
+        &--title-one {
+            color: #e8e8e8;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 25px;
+            letter-spacing: 0.01em;
+        }
+        &--title-two {
+            color: #e8e8e8;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: -0.05em;
+        }
+        &--subtitle {
+            color: #e8e8e8;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 44px;
+            letter-spacing: -0.07em;
+        }
+        &--content-btn {
+            background-color: #496BFE;
+            font-family: 'Aleo', serif;
+            padding: 21px 64px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            border: 0;
+            cursor: pointer;
+            letter-spacing: 0.05em;
+
+            &:hover {
+                background-color: white;
+                color: #496bfe;
+                padding: 20px 63px;
+                border: 1px solid #496bfe;
+                font-weight: 700;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .travel-block2__wrapper {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
